@@ -22,6 +22,6 @@ jobs:
         
       - name: push docker image
         run: docker push ravindra9999/github_actions:latest
-        
+      
       - name: logout from docker hub
         run: docker logout 
